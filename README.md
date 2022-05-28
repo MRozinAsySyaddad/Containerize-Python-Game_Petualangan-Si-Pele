@@ -21,14 +21,12 @@ Seorang anak laki-laki bernama **Pele** yang sedang asik bermain *Game Console* 
 
 **Panduan** :
 
-1. Sebelum menjalankan permainan kami, lakukan instalasi terlebih dahulu [**`Python`**](https://www.python.org/downloads/) dan juga [**`Docker`**](https://www.docker.com/products/docker-desktop/) pada perangkat kamu.
+1. Sebelum menjalankan permainan kami, lakukan instalasi terlebih dahulu [**`Docker`**](https://www.docker.com/products/docker-desktop/) dan [**`Window X Server`**](https://sourceforge.net/projects/vcxsrv/) pada perangkat kamu.
 2. Clone repositori ini atau [unduh disini](https://github.com/MRozinAsySyaddad/Containerize-Python-Game_Petualangan-Si-Pele/archive/refs/heads/main.zip) kedalam local penyimpanan kamu.
 3. Buka Terminal atau Command Prompt kamu, lalu ikuti perintah dibawah ini sacara bertahap:
 ``` bash
-python -m venv venv
-  
 docker build -t petualangan-si-pele .
-  
+
 docker run petualangan-si-pele
 ```
 ***
