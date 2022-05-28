@@ -1,12 +1,14 @@
+
 FROM python:latest
 
-COPY kebutuhan.txt .
+COPY . .
 
-RUN pip install -r kebutuhan.txt
-# RUN apt-get update && apt-get upgrade -y && apt-get install -y \ 
-#     libasound2
+RUN apt-get update -y
 
-COPY Petualangan_Si_Pele.py .
-COPY Aset ./Aset
+RUN apt-get install python -y
 
-CMD ["python","Petualangan_Si_Pele.py"]
+RUN pip install -r kebutuhan.txt 
+
+ENV DISPLAY=host.docker.internal:0.0
+
+CMD ["python", "./Petualangan_Si_Pele.py"]
