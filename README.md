@@ -19,6 +19,12 @@ Seorang anak laki-laki bernama **Pele** yang sedang asik bermain *Game Console* 
 
 ***
 
+**Dependency** :
+1. Docker
+2. Wndow X Server
+3. Python
+4. Pygame
+
 **Panduan** :
 
 1. Sebelum menjalankan permainan kami, lakukan instalasi terlebih dahulu [**`Docker`**](https://www.docker.com/products/docker-desktop/) dan [**`Window X Server`**](https://sourceforge.net/projects/vcxsrv/) pada perangkat kamu.
